@@ -1,10 +1,10 @@
 const express = require("express");
 const cors = require("cors");
 const { default: mongoose } = require("mongoose");
-// const User = require("./models/User");
-// const Post = require("./models/Post");
-// const Exhibition = require("./models/Exhibition");
-// const News = require("./models/News");
+const User = require("./models/User");
+const Post = require("./models/Post");
+const Exhibition = require("./models/Exhibition");
+const News = require("./models/News");
 const bcrypt = require("bcrypt");
 const app = express();
 const jwt = require("jsonwebtoken");
